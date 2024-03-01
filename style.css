@@ -1,0 +1,33 @@
+
+.modal-body{
+  width: 100%;
+  display: flex;
+  /* padding: 10px; */
+
+  justify-content: space-between;
+}
+.model-left-part{
+  width: 30%;
+}
+.thumbnail.active {
+  border: 2px solid rgb(93, 92, 92); 
+}
+
+.image-container{
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.thumbnail-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.thumbnail-container img{
+  width: 30%;
+}
+.current-image{
+  width: 100%;
+  height: 100%;
+}
+.model-right-part{
+  width: 60%;
+}
